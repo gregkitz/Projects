@@ -8,10 +8,10 @@ char *string_reverse2(const char *string);
 
 int main()
 {
-	char test[] = "millerlite"; 
+	char test[] = "testNumberTwo"; 
 	string_reverse1(test); 
 	cout << test << endl; 
-	char* test2 = string_reverse2("verycool"); 
+	char* test2 = string_reverse2("testString"); 
 	cout << test2 << endl; 
 }
 
