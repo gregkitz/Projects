@@ -16,7 +16,17 @@
         <x:String x:Key="AppName">Save the Humans</x:String>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid>
-                <Ellipse Fill="#FFFF0303" Height="100" Stroke="Black" Width="100"/>
+                <Ellipse Fill="#FF686363" Height="100" Stroke="#FF110E0E" Width="75"/>
+                <Ellipse Fill="Black" HorizontalAlignment="Center" Height="35" Margin="14,30.5,36,0" Stroke="#FF110E0E" VerticalAlignment="Top" Width="25" RenderTransformOrigin="-0.6,0.257" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="10" TranslateX="-1.498"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse Fill="Black" HorizontalAlignment="Center" Height="35" Margin="44,32,6,0" Stroke="#FF110E0E" VerticalAlignment="Top" Width="25" RenderTransformOrigin="-0.6,0.257" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="10" TranslateX="-1.498" Rotation="7.137"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
             </Grid>
         </ControlTemplate>
     </Page.Resources>
@@ -39,12 +49,12 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3">
+        <Grid x:Name="grid" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='2' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='5' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
         <Button x:ConnectionId='1' x:Name="startButton" Content="Start!&#xD;&#xA;" HorizontalAlignment="Center" Margin="36,29,0,0" Grid.Row="2" VerticalAlignment="Center" RenderTransformOrigin="4.731,1.066"                     />
@@ -57,18 +67,18 @@
             <ContentControl Content="ContentControl" HorizontalAlignment="Center" VerticalAlignment="Center" Template="{StaticResource EnemyTemplate}"/>
         </StackPanel>
         <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
-        <Canvas x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3">
+        <Canvas x:ConnectionId='2' x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3"                                                                            >
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF4E6E55" Offset="0.136"/>
                     <GradientStop Color="#FF5CAE6F" Offset="0.791"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Horizontal">
-                <Rectangle x:Name="human1s" Fill="White" Stroke="Black" Width="10" Margin="0,0,0,216" Height="25"/>
+            <StackPanel x:ConnectionId='3' x:Name="human" Orientation="Horizontal"                                       Canvas.Left="30" Canvas.Top="27" Height="50" Width="28">
+                <Rectangle x:Name="human1s" Fill="White" Stroke="Black" RenderTransformOrigin="0.5,0.5" Width="36" Margin="0,0,0,-17" Height="50"/>
             </StackPanel>
             <TextBox x:Name="gameOverText" Canvas.Left="559" TextWrapping="Wrap" Text="Game Over" Canvas.Top="76" FontFamily="Arial Black" FontSize="100" FontWeight="Bold" FontStyle="Italic" Height="165" Width="720" Foreground="White"/>
-            <Rectangle x:Name="target" Height="50" Canvas.Left="306" Stroke="Black" Canvas.Top="147.5" Width="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle x:ConnectionId='4' x:Name="target" Height="50" Canvas.Left="306" Stroke="Black" Canvas.Top="147.5" Width="50" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"                                       >
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>
