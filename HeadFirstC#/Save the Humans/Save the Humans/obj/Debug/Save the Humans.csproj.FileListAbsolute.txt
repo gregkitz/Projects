@@ -1,0 +1,23 @@
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\bin\Debug\Save the Humans.exe
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\bin\Debug\Save the Humans.pdb
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\bin\Debug\resources.pri
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\bin\Debug\AppxManifest.xml
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\bin\Debug\Save the Humans.build.appxrecipe
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\App.g.i.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\App.g.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\MainPage.g.i.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\MainPage.g.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\Common\StandardStyles.g.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\XamlTypeInfo.g.cs
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\App.xaml
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\MainPage.xaml
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\Common\StandardStyles.xaml
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\Save the Humans.exe
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\Save the Humans.pdb
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\priconfig.xml
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\layout.resfiles
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\resources.resfiles
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\pri.resfiles
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\LanguageQualifiers.txt
+c:\users\gregory kitzmiller\documents\visual studio 2012\Projects\Save the Humans\Save the Humans\obj\Debug\ProjectArchitectures.txt
